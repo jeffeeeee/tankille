@@ -18,6 +18,28 @@ test.serial('login', async (t) => {
   t.pass(res);
 });
 
+test.serial('try to login with wrong email', async (t) => {
+  await client.login({
+    email: 'testinen@testi.fi',
+    password: 'testinen',
+  });
+
+  t.pass();
+});
+
+test.serial('try to login without email & pass', async (t) => {
+  try {
+    await client.login({
+      email: '',
+      password: '',
+    });
+
+    t.fail('Allowed to login again');
+  } catch (err) {
+    t.pass();
+  }
+});
+
 test.serial('login again (no force)', async (t) => {
   try {
     await client.login({
