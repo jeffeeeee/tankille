@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/jeffeeeee/tankille/compare/v1.1.0...v1.1.1) (2022-09-23)
+
+
+### Bug Fixes
+
+* env pois hätäseen ([b75c99b](https://github.com/jeffeeeee/tankille/commit/b75c99b99ba1a44e3a1d095318f0dae4d14f7462))
+* env pois osa 2 ([c911ba4](https://github.com/jeffeeeee/tankille/commit/c911ba407bb4826a120126cae50244a563fabc63))
+
 ## 1.1.0 (2022-09-23)
 
 
