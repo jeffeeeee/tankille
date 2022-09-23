@@ -22,6 +22,7 @@ test.serial('try to login with wrong email', async (t) => {
   await client.login({
     email: 'testinen@testi.fi',
     password: 'testinen',
+    force: true,
   });
 
   t.pass();
